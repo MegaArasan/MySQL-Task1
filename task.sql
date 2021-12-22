@@ -196,10 +196,10 @@ values (105,"Back End Developemeny");
 select * from courses;
 
 -- QUERIES
--- 1. get number problems solved in codekata by combining the users
+-- 3. get number problems solved in codekata by combining the users
 select sum(numberproblem) from codekata;
 
--- 2. display the no of company drives attended by a user
+-- 4. display the no of company drives attended by a user
 select * from company_drives;
 
 --  5. combine and display students_activated_courses and courses for a specific user groping them based on the course
